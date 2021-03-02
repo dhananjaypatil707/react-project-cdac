@@ -6,5 +6,5 @@ function showData(a) {
 }
 
 const myname = "Dhananjay";
-const element = <h2>Hello{showData(myname)}</h2>;
+const element = <h2>Hello,{showData(myname)}</h2>;
 ReactDOM.render(<App />, document.getElementById("root"));
